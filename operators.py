@@ -134,3 +134,63 @@ print(f"The comparison between a and b is {c}")  # The Result will be in boolean
 """
 c = a >= b
 print(f"The comparison between a and b is {c}")  # The Result will be in boolean format
+
+"""
+    logical operators
+"""
+x = 20
+
+"""
+    and operator
+"""
+result = x > 10 and x < 30  # Compare the values by using and operator
+print(f"The result will be {result}")
+
+"""
+    or operator
+"""
+result = x > 10 or x < 10  # Compare the values by using and operator
+print(f"The result will be {result}")
+
+"""
+    not operator
+"""
+
+result = not(x > 10 and x < 30)   # Compare the values by using and operator
+print(f"The result will be {result}")
+
+"""
+    identity operators
+"""
+
+"""
+    is operator
+"""
+
+output = result is True
+print(f"The output is {output}")
+
+"""
+    is not operator
+"""
+
+output = result is not True
+print(f"The output is {output}")
+
+"""
+    membership operator
+"""
+name = "Hello World"
+
+"""
+    in operator
+"""
+result = "o" in name
+print(f"The result will be {result}")
+
+"""
+    not in
+"""
+result = 'o' not in name
+print(f"The result will be {result}")
+
