@@ -4,6 +4,7 @@
 a = 20
 result = float(a)
 print(f"The converted float result will be {result}")
+print(f"The type of the result is {type(result)}")
 
 """
     convert float into integer
@@ -11,12 +12,14 @@ print(f"The converted float result will be {result}")
 
 result = int(result)
 print(f"The converted int result will be {result}")
+print(f"The type of the result is {type(result)}")
 
 """
     convert int to string
 """
 result = str(result)
 print(f"The converted string result will be {result}")
+print(f"The converted string result type will be {type(result)}")
 
 """
     Getting int input from user
