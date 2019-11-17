@@ -66,7 +66,7 @@ print(
     floor division
 """
 c = a // b
-print(f"The addition of two number is {c}")  # Returns the integral part of the quotient.
+print(f"The floor division of two number is {c}")  # Returns the integral part of the quotient.
 
 """
     Assignment operators
@@ -90,10 +90,10 @@ print(f"The remainder will be {a}")  # The result will be a remainder of divided
 
 a **= 3  # a = a ** 3
 print(
-    f"The exponential of two number is {a}")  # The result will be calculate the exponential value with the base set to e.
+    f"The result will be {a}")  # The result will be calculate the exponential value with the base set to e.
 
 a //= 3  # a = a // 3
-print(f"The addition of two number is {a}")  # Returns the integral part of the quotient.
+print(f"The result will be {a}")  # Returns the integral part of the quotient.
 
 """
     comparison operators
@@ -102,6 +102,8 @@ print(f"The addition of two number is {a}")  # Returns the integral part of the 
 """
     Equal
 """
+a = 10
+b = 5
 c = a == b
 print(f"The comparison between a and b is {c}")  # The Result will be in boolean format
 
