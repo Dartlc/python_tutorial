@@ -29,3 +29,12 @@ for i in range(start_range, end_range):
 increment = int(input("Enter the increment value: "))
 for i in range(start_range, end_range, increment):
     print(f"The output is {i}")
+
+"""
+    for loop using string
+"""
+
+a = "12345678"
+
+for i in a:
+    print(i)
