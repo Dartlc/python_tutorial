@@ -19,7 +19,11 @@ for i in range(start, end):
 print(a)
 
 for i in a:
-    print(i)  # iterate the values of a
+    if i % 2 == 0:
+        print(f"This numbers are even {i}")
+    else:
+        print(f"This numbers are odd {i}")
+
 
 """
     => Tuple
@@ -27,6 +31,8 @@ for i in a:
 """
 
 a = (1, 2, 3, 4, 5, 6)
+print(a)
+b = ()
 
 for i in a:
     print(i)  # iterate the values in the tuple
@@ -38,6 +44,7 @@ for i in a:
 
 a = {}
 x = {1, 3, 4, 5, 8, 9, 0, 2, 3, 4, 5, 6}
+print(x)
 
 for k in x:
     print(k)  # iterate the in the set
@@ -57,5 +64,5 @@ print(obj)
 
 list_1 = []
 for i in range(20, 30):
-    list_1.append({"value": i})
+    list_1.append({i: i})
 print(list_1)
