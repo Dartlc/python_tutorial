@@ -28,6 +28,4 @@ def flor_division_operation(a: int, b: int):
 
 
 if __name__ == "__main__":
-    subtraction_operation()
-    print(division_operation())
-    flor_division_operation(a=28, b=3)
+    flor_division_operation(a=23, b=14)
