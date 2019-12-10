@@ -42,7 +42,7 @@ for i in a:
     => Set is un ordered
 """
 
-a = {}
+a = set()
 x = {1, 3, 4, 5, 8, 9, 0, 2, 3, 4, 5, 6}
 print(x)
 

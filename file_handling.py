@@ -20,7 +20,7 @@ except Exception as e:
     create a file and write in file
 """
 
-f = open("/home/sudhagar/Desktop/test/demo.txt", "w")
+f = open("demo.txt", "w")
 f.write("hello world!!! welcome")
 f.close()
 
