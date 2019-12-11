@@ -1,0 +1,6 @@
+from Examples.class_example import DemoClass
+
+demo_class = DemoClass()
+x = demo_class.odd_even()
+x += 1
+print(x)
