@@ -27,3 +27,14 @@ try:
 except Exception as e:
     print(f"{e}")
 
+finally:
+    print("bye")
+
+try:
+    input_value = int(input("enter the input value: "))
+    input_value_2 = int(input("enter the input value: "))
+except Exception as e:
+    print(f"{e}")
+
+if input_value % 2 == 0:
+    print("Even")
