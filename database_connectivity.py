@@ -7,6 +7,6 @@ try:
     cur.execute("create table hello (name varchar (40) NOT NULL)")
 except Exception as e:
     print(e)
-
-cur.execute("INSERT INTO hello(name) VALUES ()")
+cur.execute("INSERT INTO hello(name) VALUES ('sudhagar')")
+db.commit()
 db.close()
