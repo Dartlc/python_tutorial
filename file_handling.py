@@ -21,7 +21,7 @@ except Exception as e:
 """
 
 f = open("demo.txt", "w")
-f.write("hello world!!! welcome")
+f.write("hello world!!!")
 f.close()
 
 """
@@ -37,7 +37,7 @@ f.close()
     append the data into the file
 """
 
-f = open("/home/sudhagar/Desktop/test/demo.txt", "a")
+f = open("demo.txt", "a")
 f.write("\nhave a nice day")
 f.close()
 
