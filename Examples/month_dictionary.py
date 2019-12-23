@@ -6,3 +6,6 @@ for i in input_dict:
 x = sorted(key_value)
 print(x)
 
+y = {k: v for k, v in sorted(input_dict.items())}
+print(y)
+
