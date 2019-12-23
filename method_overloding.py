@@ -2,17 +2,6 @@
     same function name different parameters
 """
 
-
-def demo(a, b):
-    c = a + b
-    print(c)
-
-
-def demo(a, b, c):
-    c = a + b + c
-    print(c)
-
-
 """
     args and kwargs
 """
@@ -24,5 +13,4 @@ def sample(*args):
 
 
 if __name__ == '__main__':
-    demo(a=5, b=6, c=10)
-    sample(20, 21, 32, 43, 23, 54, 62)
+    sample(20, [1, 2, 3, 4, 5, 6, 7, 6], "sudhagar")
