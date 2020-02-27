@@ -1,4 +1,4 @@
-from division_task_pack.input_getting import *
+from Examples.division_task_pack.input_getting import get_integer_input
 
 
 def division_task(nu_r1: int, nu_r2: int, d_r1: int, d_r2: int):
