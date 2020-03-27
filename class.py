@@ -3,17 +3,17 @@
 """
 
 
-class Demo:
+class Calc:
 
-    def odd_even(self):
-        self.value = 153
+    def addition(self, a, b):
+        self.c = a + b
+        print(self.c)
 
-        if self.value % 2 == 0:
-            print("Even")
-        else:
-            print("Odd")
+    def subraction(self, a, b):
+        self.d = a - b
+        print(self.d)
 
 
-if __name__ == '__main__':
-    obj = Demo()
-    obj.odd_even()
+obj = Calc()
+obj.addition(a=20, b=30)
+obj.subraction(a=20, b=30)
