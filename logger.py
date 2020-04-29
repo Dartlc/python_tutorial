@@ -1,15 +1,15 @@
-import logging
+import log_file
 
 # Create and configure logger
-logging.basicConfig(filename="newfile.log",
-                    format='%(asctime)s %(message)s',
-                    filemode='w')
+log_file.basicConfig(filename="newfile.log",
+                     format='%(asctime)s %(message)s',
+                     filemode='w')
 
 # Creating an object
-logger = logging.getLogger()
+logger = log_file.getLogger()
 
 # Setting the threshold of logger to DEBUG
-logger.setLevel(logging.DEBUG)
+logger.setLevel(log_file.DEBUG)
 
 # Test messages
 logger.debug("Harmless debug Message")
