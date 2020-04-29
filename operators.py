@@ -60,7 +60,8 @@ print(f"The modulus of two number is {c}")  # The result will be a remainder of 
 """
 c = a ** b
 print(
-    f"The exponential of two number is {c}")  # The result will be calculate the exponential value with the base set to e.
+    f"The exponential of two number is {c}")  # The result will be calculate the exponential value with the base set
+# to e.
 
 """
     floor division
@@ -158,7 +159,7 @@ print(f"The result will be {result}")
     not operator
 """
 
-result = not(x > 10 and x < 30)   # Compare the values by using and operator
+result = not (x > 10 and x < 30)  # Compare the values by using and operator
 print(f"The result will be {result}")
 
 """
@@ -195,4 +196,3 @@ print(f"The result will be {result}")
 """
 result = 'o' not in name
 print(f"The result will be {result}")
-

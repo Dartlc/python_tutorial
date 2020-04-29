@@ -78,7 +78,7 @@ class Reverse(Biggest):
         print("The reversed number is {}".format(self.reverse))
 
 
-class Sum(Reverse):
+class OddEven(Reverse):
     def __init__(self):
         super().__init__()
         self.d = self.a + self.b
@@ -91,7 +91,7 @@ class Sum(Reverse):
 
 
 if __name__ == '__main__':
-    obj = Sum()
+    obj = OddEven()
     obj.display()
     obj.display_1()
     obj.display_2()

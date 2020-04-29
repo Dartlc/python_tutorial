@@ -14,7 +14,7 @@ print(list(x))
 # filter function
 
 def filter_the_values_using_filter_function(x):
-    if x == "world":
+    if x == "World":
         return True
 
 
