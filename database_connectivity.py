@@ -1,12 +1,21 @@
 import pymysql
 
-db = pymysql.connect("localhost", "sudhagar", "Sudhagar@1995", "sample")
-cur = db.cursor()
-cur.execute("use sample")
+db = pymysql.connect("localhost", 'sudhagar', "sudhagar@1995", 'sample')
+
+x = db.cursor()
+x.execute("use sample")
 try:
-    cur.execute("create table hello (name varchar (40) NOT NULL)")
+    x.execute("create table demo(name varchar(30), age int) ")
 except Exception as e:
     print(e)
-cur.execute("INSERT INTO hello(name) VALUES ('sudhagar')")
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+x.execute("INSERT INTO demo(name, age) VALUES (%s, %s)", (name, age))
 db.commit()
+x.execute("select * from demo")
+c = x.fetchall()
+print(c)
 db.close()
+
